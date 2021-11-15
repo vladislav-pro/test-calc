@@ -8,4 +8,7 @@ class Calc {
     public get result(): number {
         return this._result;
     }
+    public sum(): void {
+        this._result = this._firstNumber + this._secondNumber;
+    }
 }
