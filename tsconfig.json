@@ -1,0 +1,10 @@
+{ 
+   "compilerOptions": 
+   { 
+      "watch": true, 
+      "target": "es6",
+      "removeComments": true, 
+      "outFile": "app/build/index.js",
+      "strict": true, 
+   } 
+}
