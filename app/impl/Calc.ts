@@ -11,4 +11,7 @@ class Calc {
     public sum(): void {
         this._result = this._firstNumber + this._secondNumber;
     }
+    public sub(): void {
+        this._result =  this._firstNumber - this._secondNumber;
+    }
 }
